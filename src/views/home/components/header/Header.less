@@ -1,0 +1,85 @@
+.wrapper {
+  position: fixed;
+  display: flex;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: solid 1px #eeeeee;
+  color: white;
+  display: flex;
+  padding: 0rem .4rem;
+  .location {
+    flex: 40%;
+    margin-top: 0.6rem;
+    height: 2rem;
+    line-height: 2rem;
+    white-space: nowrap;
+    opacity: 0.6;
+    background-color: black;
+    border-radius: 3.125rem;
+    position: relative;
+
+    .icon {
+      position: absolute;
+      top: .5rem;
+      left: .6rem;
+      width: 1rem;
+      height: 1rem;
+      fill: #eeeeee;
+    }
+
+    .icon-two {
+      position: absolute;
+      top: .5rem;
+      left: 6.1rem;
+      width: 1rem;
+      height: 1rem;
+      fill: #eeeeee;
+    }
+
+    .txt {
+      position: absolute;
+      top: .1rem;
+      left: 1.7rem;
+      font-size: .8rem;
+    }
+  }
+
+  .search {
+    flex: 65%;
+
+    .box {
+      margin-top: 0.625rem;
+      flex: 1;
+      margin-right: 2%;
+      margin-left: 2%;
+      border-radius: 3.125rem;
+      height: 2rem;
+      line-height: 2rem;
+      text-align: center;
+      background: #f2f2f2;
+      vertical-align: middle;
+
+      .icon {
+        display: inline-block;
+        width: 1.25rem;
+        height: 100%;
+        vertical-align: middle;
+        fill: #999999
+      }
+
+      span {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 0.25rem;
+        text-align: center;
+        font-size: 0.875rem;
+        color: #999999;
+      }
+    }
+  }
+}
